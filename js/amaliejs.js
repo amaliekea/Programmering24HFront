@@ -1,4 +1,4 @@
-console.log("jeg er i amalie.js");
+console.log("jeg er i amalie.js hahah");
 
 function hentPersoner() {
     console.log("hent personer kaldt");
