@@ -1,7 +1,7 @@
 console.log("jeg er i amalie.js");
 
 function hentPersoner() {
-    fetch("http://localhost:8080/api/persons")
+    fetch("http://138.2.182.16:8080/api/persons")
         .then(response => response.json())
         .then(data => {
             const liste = document.getElementById("personListe");
